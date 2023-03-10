@@ -1,4 +1,4 @@
-keysPressed = {}
+const keysPressed = {}
 document.addEventListener("keydown", (e) => { 
 	keysPressed[e.key] = true
 })
